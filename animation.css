@@ -1,0 +1,36 @@
+
+
+body{
+    background-color: bisque;
+}
+.container {
+  width: 400px;
+  margin: auto;
+  margin-top: 400px;
+  padding: auto;
+}
+
+.progress {
+  padding: 6px;
+  background-color: #00000040;
+  border-radius: 30px;
+}
+
+.progress-bar {
+  height: 18px;
+  background-color: blueviolet;
+  border-radius: 30px;
+  animation: loaded 7s;
+}
+
+@keyframes loaded {
+  0% {
+    width: 0%;
+  }
+  80% {
+    width: 80%;
+  }
+  100% {
+    width: 100%;
+  }
+}
