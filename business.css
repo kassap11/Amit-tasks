@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+}
+body {
+  height: auto;
+  background-color: #161616;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 999;
+}
+nav img {
+  margin-left: 100px;
+  height: 50px;
+}
+.links a {
+  color: white;
+  text-decoration: none;
+  height: 60px;
+  display: inline-block;
+  justify-content: center;
+  flex-direction: row;
+  margin-right: 10px;
+  padding: 0px 40px;
+  text-align: center;
+  line-height: 60px;
+}
+.pip {
+  background-color: darkgoldenrod;
+}
+
+a:hover {
+  background-color: darkgoldenrod;
+}
+section {
+  background-color: #161616;
+  width: 100%;
+  height: auto;
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  color: #b79632;
+
+  padding-top: 100px;
+  padding-bottom: 50px;
+  margin-bottom: 0px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.right,
+.left {
+  width: 50%;
+  height: auto;
+}
+.photo {
+  width: 150px;
+  height: 150px;
+  margin: 15px 150px;
+  padding-bottom: 50px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.right h1 {
+  font-size: 30px;
+  color: #b79632;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  min-height: 60px;
+  height: auto;
+}
+.right p {
+  font-size: 20px;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #d6d3cb;
+  margin-bottom: 10px;
+}
+
+.right .link a {
+  text-decoration: none;
+  width: 100%;
+  margin: 0px 300px;
+  padding-top: 51px;
+  padding-bottom: 20px;
+  color: #b79632;
+  font-size: 20px;
+}
+
+.right .link a:hover {
+  color: white;
+  background-color: transparent;
+}
+
+.left h1 {
+  font-size: 30px;
+  color: #b79632;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  min-height: 60px;
+  height: auto;
+}
+.left p {
+  font-size: 20px;
+  width: 80%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: #d6d3cb;
+  margin-bottom: 10px;
+}
